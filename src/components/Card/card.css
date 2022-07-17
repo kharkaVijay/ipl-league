@@ -1,0 +1,169 @@
+/* li {
+  list-style: none;
+}
+
+.player-container .card {
+  border-radius: 10px;
+  padding: 1rem;
+  padding-bottom: 0 !important;
+  display: grid;
+  grid-template-columns: 39% 59%;
+  text-align: center;
+  color: #fff;
+}
+
+.p-image img {
+  width: 273px;
+  height: 250px;
+}
+
+.p-info {
+  margin-top: 0.7rem;
+}
+
+.p-info .name {
+  padding: 4px;
+  background: linear-gradient(180deg, #0078bc 0, #17479e 100%);
+  font-size: 18px;
+  padding: 4px 0;
+  clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%);
+}
+
+.p-info .item {
+  margin: 1rem 4rem;
+  display: flex;
+  justify-content: space-between;
+} */
+
+.container {
+  width: calc(35% - 50px);
+}
+
+div {
+  box-sizing: border-box;
+}
+
+
+
+.title {
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+
+
+.title-content {
+  font-size: 32px;
+  color: #ef4123;
+  font-weight: 700;
+  font-style: italic;
+  margin-bottom: 0;
+  
+}
+
+
+
+.list {
+  width: 100%;
+  float: left;
+  padding: 20px 20px 0 20px;
+  background: #fff;
+  box-shadow: 0 4px 20px rgb(102 102 102 / 16%);
+  border-radius: 18.708px;
+}
+
+
+
+.capt_wict {
+  right: -195px;
+  top: 53px;
+  display: flex;
+  position: absolute;
+  width: 22px;
+}
+.team-ul li{
+  margin-bottom: 94px;
+}
+
+.list ul li .player-list .player-list-name {
+  height: 100%;
+  width: calc(100% - 104px);
+  color: #18184a;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list ul li .player-list .player-details {
+  z-index: 5;
+  width: 10%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.list ul li .team-logo {
+  display: block;
+  right: 2px;
+  z-index: 1;
+  opacity: .2;
+  height: 100%;
+}
+
+.team-logo {
+  position: absolute;
+}
+
+.list ul li .player-list {
+  z-index: 5;
+}
+
+.list ul li .player-list {
+  /* background-color: #ffe600; */
+  border-radius: 5px;
+  height: 70px;
+  padding: 0 12px 0 0;
+}
+
+
+.flexDisplay {
+  display: flex;
+}
+
+.relative {
+  position: relative;
+}
+
+a {
+  text-decoration: none!important;
+}
+a {
+  color: #0d6efd;
+  text-decoration: underline;
+}
+
+.player-list{
+  width: 100%;
+  float: left;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+}
+
+.list ul li .player-list .player-img {
+  display: inline-block;
+  width: 21%;
+}
+
+
+.player-img {
+  position: relative!important;
+}
+
+
